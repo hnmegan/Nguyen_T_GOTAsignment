@@ -95,8 +95,8 @@ main {
 .tyrell { background-position:-357px -54px; }
 .tyrell:hover { background-position:-357px 0px; }
 
-.tagaryen { background-position:-409px -54px; }
-.tagaryen:hover { background-position:-409px 0px; }
+.targaryen { background-position:-409px -54px; }
+.targaryen:hover { background-position:-409px 0px; }
 
 /* ----- end image sprite ----- */
 
@@ -136,8 +136,8 @@ main {
 
 
 video {
-	width: 85%;
-	margin: 10% auto 10% auto;
+	width: 60%;
+	margin: 100px auto 10% auto;
 	border: thin solid #949393;
   display: block;
 }
