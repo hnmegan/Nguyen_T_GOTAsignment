@@ -1,4 +1,4 @@
-# Nguyen_T_GOTAssignment
+Nguyen_T_GOTAssignment
 
 #Adding the 3 houses using arrays
 
