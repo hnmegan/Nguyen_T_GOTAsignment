@@ -10,6 +10,8 @@
         houseName = document.querySelector("#house-name"),
         houseInfo = document.querySelector(".house-info");
 
+
+
         // houseData is a multidimensional array (arrays within arrays!) Data containers can hold anything - in this case, each index or entry holds another, smaller container with 2 indexes - 1 with the house name, one with the house data.
         // when you click on a shield, the dataset.offset property is a 0 through 5 that's pointing at the main index of the houseData array (stark, baratheon, lannister etc). so the syntax becomes houseData[offset][0] for the house name, and houseData[offset][1] for the house data. Each gets assigned to the h1 and the paragraph tag
 
@@ -84,6 +86,8 @@
 
     bannerImages.addEventListener("transitionend", (popLightBox));
   }
+
+
 
   //sigils.forEach(sigil => sigil.addEventListener("click", popLightBox));
   sigils.forEach(sigil => sigil.addEventListener("click", animateBanners));
