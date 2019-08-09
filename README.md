@@ -4,4 +4,4 @@ Nguyen_T_GOTAssignment
 
 #Inserts all videos and make them run properly [ i noticed one bug that if you click on house Stark symbol, the video will not play. But I dont know how to fix it]
 
-#Custom the control bar for video player
+# controls bar on auto

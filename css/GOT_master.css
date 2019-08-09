@@ -134,51 +134,23 @@ main {
 }
 
 .video-container {
-	display: flex;
+
 	background: none;
-	justify-content: center;
+
 	align-items: center;
 	flex-direction: column;
-	width: 60%;
-	margin: 100px auto 10% auto;
+	width: 80%;
+
 }
+
+
 
 video {
-	width: 100%;
-	
-	border: thin solid #949393;
-  display: block;
-  position: relative;
-}
-
-.controls {
 	display: flex;
-	position: absolute;
-	bottom: 268px;
-	width: 60%;
-	flex-wrap: wrap;
-	background: red;
+	justify-content: center;
+	width: 60%;	
+	border: thin solid #949393;
+  margin: 100px auto 10% auto;
 }
 
-.buttons {
-	padding: 3px;
-}
-
-.buttons button {
-	background: none;
-	border: 0;
-	outline: 0;
-	cursor: pointer;
-}
-
-.buttons button:before {
-	content: "\f144";
-	font-family: "Font Awesome 5 Free";
-	width: 30px;
-	height: 30px;
-	display: inline-block;
-	font-size: 30px;
-	color: yellow;
-	-webkit-font-smoothing: antialiased;
-}
 
